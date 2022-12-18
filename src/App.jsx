@@ -1,17 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react'
 import './App.css'
 import LoginPage from './pages/LoginPage'
-import NavbarPage from './pages/Navbar'
+import DashboardLayout from './pages/Navbar'
+import SignUpPage from './pages/Signup'
 
 function App() {
 
   return (
     <div className="App">
-      <NavbarPage />
-      <LoginPage />
+      <DashboardLayout />
+      <SignUpPage />
+      {/* <LoginPage /> */}
     </div>
   )
 }
 
 export default App
+
