@@ -1,5 +1,6 @@
 import React from 'react'
 import '../stylesheet/navbartwo.css'
+import Chats from './Chats'
 import NavbarTwo from './NavbarTwo'
 import Search from './Search'
 
@@ -9,6 +10,7 @@ const SideBar = () => {
         <div>
         <NavbarTwo />
         <Search />
+        <Chats />
         </div>
         
     </div>

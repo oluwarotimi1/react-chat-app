@@ -1,4 +1,5 @@
 import React from 'react'
+import '../stylesheet/homepage.css'
 import avt2 from '../assets/ape2.jpeg'
 
 const Search = () => {

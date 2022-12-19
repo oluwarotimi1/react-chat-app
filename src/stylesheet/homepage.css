@@ -97,5 +97,34 @@ background-color: #3e3c61;
     object-fit: cover;
 }
 
+/* SIDEBAR CHATS STYLE SHEET IS HERE */
+
+.sidebar .user-chat{
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.chats .user-chat:hover{
+    background-color: #2f2d52;
+}
+.chats  .user-chat img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chats img{
+    background-color: #ddddf7;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 /*CHAT SYLESHEET IS HERE */
 .chat{flex: 4;}
