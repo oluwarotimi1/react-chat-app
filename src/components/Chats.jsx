@@ -11,7 +11,7 @@ const Chats = () => {
       <div className="user-chat">
         <img src={avt3}/>
         <div className="user-chat-info">
-          <span>Micheal</span>
+          <span>Caleb bastard</span>
         </div>
     </div>
     </div>

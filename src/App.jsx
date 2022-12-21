@@ -3,7 +3,7 @@ import './App.css'
 import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import DashboardLayout from './pages/Navbar'
-// import SignupPage from './pages/SignupPage'
+import SignupPage from './pages/SignupPage'
 // import {Router, Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -11,8 +11,9 @@ function App() {
   return (
     <div className="App">
       <DashboardLayout />
-      <HomePage />
+      <SignupPage />
       <LoginPage />
+      <HomePage />
 
       {/* <Routes>
         <Route>
