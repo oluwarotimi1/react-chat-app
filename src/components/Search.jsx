@@ -1,5 +1,5 @@
 import React from 'react'
-import '../stylesheet/homepage.css'
+import '../stylesheet/homepage.scss'
 import avt2 from '../assets/ape2.jpeg'
 // import {BiSearch} from 'react-icons/bi'
 

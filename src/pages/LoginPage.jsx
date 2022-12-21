@@ -1,12 +1,12 @@
 import React from 'react'
-import '../stylesheet/loginpage.css'
+import '../stylesheet/app.scss'
 import {Form, Button, Card, Alert} from 'react-bootstrap'
 import { Link, useNavigate } from 'react-router-dom'
 
 const LoginPage = () => {
   return (
-    <div className='d-flex justify-content-center align-items-center'
-    style={{minHeight:'100vh', backgroundColor:'#a7bcff'}}>
+    <div className='d-flex justify-content-center align-items-center' id='login-container'
+    style={{minHeight:'100vh'}}>
     <div className='w-100'
             style={{maxWidth:'400px'}}>
         <Card >
