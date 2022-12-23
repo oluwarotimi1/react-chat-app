@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import HomePage from './pages/HomePage'
+// import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import DashboardLayout from './pages/Navbar'
 import SignupPage from './pages/SignupPage'
@@ -13,7 +13,7 @@ function App() {
       <DashboardLayout />
       <SignupPage />
       <LoginPage />
-      <HomePage />
+      {/* <HomePage /> */}
 
       {/* <Routes>
         <Route>
